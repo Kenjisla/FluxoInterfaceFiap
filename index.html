@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxo de Interface Fiap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tela Home -->
+        <div class="screen" id="home">
+            <h1>Bem-vindo</h1>
+            <button class="btn" onclick="navigateTo('profile')">Perfil</button>
+            <button class="btn" onclick="navigateTo('settings')">Configurações</button>
+            <button class="btn" onclick="navigateTo('menu')">Menu</button>
+            <ul class="friends-list">
+                <li>Conta 1</li>
+                <li>Conta 2</li>
+                <li>Conta 3</li>
+                <li>Conta 4</li>
+            </ul>
+        </div>
+
+        <!-- Tela Perfil -->
+        <div class="screen" id="profile">
+            <h1>Meu Perfil</h1>
+            <div class="avatar"></div>
+            <p>Sobre:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor urna.</p>
+        </div>
+
+        <!-- Tela Configurações -->
+        <div class="screen" id="settings">
+            <h1>Minhas Configurações</h1>
+            <ul class="settings-list">
+                <li>Definição 1</li>
+                <li>Definição 2</li>
+                <li>Definição 3</li>
+                <li>Definição 4</li>
+                <li>Definição 5</li>
+            </ul>
+        </div>
+
+        <!-- Tela Menu -->
+        <div class="screen" id="menu">
+            <h1>Menu</h1>
+            <ul class="menu-list">
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
